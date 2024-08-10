@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracie's Resume</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <h1>Tracie Pujol</h1>
+        <h2>Certified Scrum Master | Certified AWS Cloud Practitioner | Certified AWS Solutions Architect (Associate) | Customer Service Expert | Pursuer of Knowledge</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Main Content -->
+    <div class="left-side"> 
+        <img src="{{ url_for('static', filename='images/v20200718_130327.jpg') }}" alt="Headshot" class="profile-image">
+    </div>
+
+    <div class="right-side">
+        <h2>Tracie Pujol</h2>
+        
+        <!-- Link under your name -->
+        <p><a href="{{ url_for('static', filename='docs/TraciePujolSimpleResume.pdf') }}" target="_blank">Download My Resume</a></p>
+        
+        <!-- Interactive links in a column -->
+        <div class="links">
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </div>
+    
+        <!-- Professional links in a row -->
+        <div class="professional-links">
+            <a href="https://www.linkedin.com/in/traciepujol" target="_blank">LinkedIn</a>
+            <a href="https://github.com/TraciePujol" target="_blank">GitHub</a>
+            <a href="https://twitter.com/TraciePujol" target="_blank">Twitter</a>
+            <a href="https://https://linqapp.com/traciepujol?r=link" target="_blank">Linq</a>
+        </div>
+    </div>
+    
+
+    <footer class="site-footer">
+        <p>&copy; 2024 Tracie Pujol. All rights reserved.</p>
+        <p>Contact: <a href="mailto:traciepujol@gmail.com">Email Me!</a></p>
+        <p>
+            <a href="https://www.linkedin.com/in/traciepujol" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/TraciePujol" target="_blank">GitHub</a>
+        </p>
+        <p class="closing-message">
+            Thank you for considering my application. I look forward to the opportunity to discuss how my skills and experiences can contribute to the success of your organization. I am available for an interview at your convenience and can be reached at the contact information provided above. 
+        </p>
+        <p class="closing-message">Thank you for your time and consideration.</p>
+    </footer>
+    
+    
+</body>
+</html>

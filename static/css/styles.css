@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+.site-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.site-header h1,
+.site-header h2 {
+    margin: 0;
+}
+
+.site-header h2 {
+    font-size: 1.2em;
+    margin-top: 10px; 
+}
+
+.site-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.site-header nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.site-header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles (Adjust as needed based on your content layout) */
+.main-content {
+    /* Add styles for your main content area if needed */
+}
+
+/* Left Side Styles */
+.left-side {
+    width: 300px; /* Match the width of the headshot */
+    padding: 20px;
+    margin-right: 20px; /* Add some space between left and right sections */
+}
+
+.left-side img { /* Style the headshot image */
+    width: 100%;
+    height: auto;
+    border: 10px solid #fff; /* White border */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+/* Right Side Styles */
+
+.right-side {
+    flex: 1; /* Allow the right side to take up remaining space */
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0; /* Adjust top/bottom margins as needed */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex; /* Enable flexbox for centering */
+    flex-direction: column; /* Arrange content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text within the container */
+}
+
+.right-side {
+    float: right;
+    width: 300px; 
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.right-side h2 {
+    margin-top: 0;
+}
+
+.right-side p a { /* Style for the "Download My Resume" link */
+    color: #007bff; /* Example blue color, adjust as needed */
+    text-decoration: none;
+}
+
+.right-side .links a,
+.right-side .professional-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.right-side .professional-links {
+    margin-top: 20px;
+}
+
+.right-side .professional-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Footer Styles */
+.site-footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.site-footer a {
+    color: #fff;
+}
+
+.site-footer .closing-message {
+    font-style: italic;
+    margin-top: 20px;
+}
